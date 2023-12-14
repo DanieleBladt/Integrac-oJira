@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/12/14 15:05:57.000.902,=C:\Users\Daniele\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/14 15:08:18.000.141,C:\Users\Daniele\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\uPrincipal.pas</Transaction>
+    <Transaction>2023/12/14 15:08:18.000.141,C:\Users\Daniele\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\uPrincipal.dfm</Transaction>
+    <Transaction>2023/12/14 15:08:23.000.588,C:\Users\Daniele\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\IntegracaoJira.dproj</Transaction>
+    <Transaction>2023/12/14 15:59:56.000.215,=C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\Unit1.pas</Transaction>
+    <Transaction>2023/12/14 16:00:06.000.938,C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\Unit1.pas=C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\Forms\uConfiguracoes.pas</Transaction>
+    <Transaction>2023/12/14 16:00:06.000.938,C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\Unit1.dfm=C:\Users\Daniele\Documents\Projetos Daniele\integracao-jira\Forms\uConfiguracoes.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

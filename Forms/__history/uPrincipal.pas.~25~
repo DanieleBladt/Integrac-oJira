@@ -1,0 +1,41 @@
+unit uPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls;
+
+type
+  TFPrincipal = class(TForm)
+    pnForm: TPanel;
+    pnMenu: TPanel;
+    btConfiguracoes: TSpeedButton;
+    procedure btConfiguracoesClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FPrincipal: TFPrincipal;
+
+implementation
+
+uses
+  uConfiguracoes;
+
+{$R *.dfm}
+
+procedure TFPrincipal.btConfiguracoesClick(Sender: TObject);
+begin
+  if Assigned(FConfiguracoes) then
+    Exit;
+  FConfiguracoes := TFConfiguracoes.Create(Self);
+  FConfiguracoes.Parent := pnForm;
+
+  FConfiguracoes.Show;
+end;
+
+end.

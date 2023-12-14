@@ -1,0 +1,62 @@
+object FConfiguracoes: TFConfiguracoes
+  Left = 0
+  Top = 0
+  Align = alClient
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsNone
+  Caption = 'Configura'#231#245'es'
+  ClientHeight = 462
+  ClientWidth = 677
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 41
+    Width = 677
+    Height = 421
+    Align = alClient
+    TabOrder = 0
+    ExplicitTop = 112
+    ExplicitHeight = 350
+    object leEmail: TLabeledEdit
+      Left = 152
+      Top = 64
+      Width = 329
+      Height = 21
+      EditLabel.Width = 117
+      EditLabel.Height = 13
+      EditLabel.Caption = 'Email..............................'
+      EditLabel.Layout = tlBottom
+      LabelPosition = lpLeft
+      LabelSpacing = 0
+      TabOrder = 0
+    end
+  end
+  object pnBotoes: TPanel
+    Left = 0
+    Top = 0
+    Width = 677
+    Height = 41
+    Align = alTop
+    TabOrder = 1
+    ExplicitLeft = 328
+    ExplicitTop = 17
+    ExplicitWidth = 185
+    object SpeedButton1: TSpeedButton
+      Left = 1
+      Top = 1
+      Width = 48
+      Height = 39
+      Align = alLeft
+      OnClick = SpeedButton1Click
+    end
+  end
+end
